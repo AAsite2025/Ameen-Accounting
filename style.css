@@ -146,7 +146,11 @@ nav a {
   cursor: pointer;
   animation: fadeSlideIn 1s ease forwards;
 }
-
+nav a.active {
+  color: #ffd700; /* or your brand highlight color */
+  font-weight: bold;
+  text-decoration: underline;
+}
 nav a:hover,
 nav a:focus {
   text-decoration: underline;
