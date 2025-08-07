@@ -607,7 +607,8 @@ color: rgba(255, 255, 255, 0.5); /* Very light grey / transparent */
 }
 .footer-copy {
 text-align: center;
-}.floating-contact-icons {
+}
+.floating-contact-icons {
 position: fixed;
 bottom: 20px;
 right: 20px;
