@@ -371,7 +371,9 @@ text-decoration: none;
 font-size: 0.95rem;
 line-height: 2.50; /* ← Add this line */
 }
-
+.footer-block a {
+  white-space: nowrap;
+}
 .footer-block a:hover {
 text-decoration: underline;
 }
