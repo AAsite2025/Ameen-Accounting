@@ -19,7 +19,7 @@
   --gold-glow: #f7c94899;
   --text-glow: #f7c948aa;
 }
- 
+
 
     body {
       margin: 0;
@@ -632,12 +632,12 @@ footer {
   text-decoration: underline;
 }
 .footer-block {
-  flex: 0 1 auto; /* don’t grow, can shrink */
-  max-width: 220px; /* keep blocks narrow */
+flex: 0 1 auto; /* don’t grow, can shrink */
+max-width: 220px; /* keep blocks narrow */
 }
 .footer-block {
-      width: 100%;
-    }
+width: 100%;
+}
 /* Optional: indent for dropdowns */
 .dropdown-content {
   margin-left: 1rem;
@@ -731,7 +731,7 @@ footer {
   user-select: none;
 }
  footer {
-    
+
     padding: 3rem 1rem;
     color: #e0f7f6;
     font-family: Arial, sans-serif;
@@ -749,13 +749,13 @@ footer {
   animation-delay: 1s;
   user-select: none;
 }.skip-link {
-  position: absolute;
-  left: -999px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  z-index: 100;
+position: absolute;
+left: -999px;
+top: auto;
+width: 1px;
+height: 1px;
+overflow: hidden;
+z-index: 100;
 }
 
 .skip-link {
@@ -779,7 +779,7 @@ footer {
   text-decoration: none;
   font-weight: bold;
   border-radius: 4px;
-  
+
 }
 /* Dropdown styling */
 .dropdown-content {
@@ -820,42 +820,42 @@ footer {
 }
 /* Footer copyright note */
 .footer-copy {
-  text-align: center;
-  font-size: 0.85rem;
-  margin-top: 2rem;
-  color: rgba(255, 255, 255, 0.5); /* Very light grey / transparent */
+text-align: center;
+font-size: 0.85rem;
+margin-top: 2rem;
+color: rgba(255, 255, 255, 0.5); /* Very light grey / transparent */
 }
 .footer-copy {
-    text-align: center;
-  }.floating-contact-icons {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-      z-index: 9999;
-    }
+text-align: center;
+}.floating-contact-icons {
+position: fixed;
+bottom: 20px;
+right: 20px;
+display: flex;
+flex-direction: column;
+gap: 15px;
+z-index: 9999;
+}
 
-    .floating-icon {
-      background-color: white;
-      color: #25D366;
-      font-size: 28px;
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-decoration: none;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
+.floating-icon {
+background-color: white;
+color: #25D366;
+font-size: 28px;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
 
-    .floating-icon:hover {
-      transform: scale(1.1);
-      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
-    }
+.floating-icon:hover {
+transform: scale(1.1);
+box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
 @media (max-width: 375px) {
   .contact-badge {
     margin-bottom: 1.5rem; /* Or adjust to 1rem if you want it tighter */
