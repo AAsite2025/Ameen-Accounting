@@ -689,6 +689,21 @@
       .footer-block a:hover {
         text-decoration: underline;
       }
+/* GENERAL FOOTER BLOCK STYLES */
+.footer-block {
+  flex: 0 1 auto;
+  max-width: 220px;
+  width: 100%;
+}
+
+.footer-block a {
+  white-space: nowrap;
+}
+
+.footer-block a:hover {
+  text-decoration: underline;
+}
+
 /* CONTACT ITEM INLINE STYLE FIX */
 .footer-contact-item {
   display: flex;
@@ -702,16 +717,6 @@
   color: white;
   text-decoration: none;
 }
-      .footer-block {
-        flex: 0 1 auto;
-        /* don’t grow, can shrink */
-        max-width: 220px;
-        /* keep blocks narrow */
-      }
-
-      .footer-block {
-        width: 100%;
-      }
 
       /* Optional: indent for dropdowns */
       .dropdown-content {
@@ -946,4 +951,5 @@
         }
       }
     </style>
+
 
