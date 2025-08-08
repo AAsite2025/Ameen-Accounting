@@ -666,6 +666,10 @@ text-align: center;
   visibility: visible !important;
   opacity: 1 !important;
 }
+  
+.floating-icon i {
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands" !important;
+}
 
 .floating-icon:hover {
   transform: scale(1.1) !important;
