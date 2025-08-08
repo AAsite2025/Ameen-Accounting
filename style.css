@@ -275,6 +275,20 @@ a:focus {
 .cta-btn i {
   margin-right: 0.5rem;
 }
+@keyframes softShimmer {
+  0% {
+    filter: brightness(1);
+    box-shadow: 0 0 5px var(--gold-glow);
+  }
+  50% {
+    filter: brightness(1.2);
+    box-shadow: 0 0 15px var(--gold-glow);
+  }
+  100% {
+    filter: brightness(1);
+    box-shadow: 0 0 5px var(--gold-glow);
+  }
+}
 
 .cta-btn:hover {
   background: linear-gradient(45deg, var(--gold-color), #f2c94c);
