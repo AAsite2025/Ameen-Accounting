@@ -271,35 +271,12 @@ a:focus {
   font-size: 1.1rem;
   transition: background-color 0.3s ease;
 }
-
-.cta-btn i {
-  margin-right: 0.5rem;
-}
-@keyframes softShimmer {
-  0% {
-    filter: brightness(1);
-    box-shadow: 0 0 5px #f9b700;
-  }
-  50% {
-    filter: brightness(1.2);
-    box-shadow: 0 0 15px #f9b700;
-  }
-  100% {
-    filter: brightness(1);
-    box-shadow: 0 0 5px #f9b700;
-  }
-}
-
 .cta-btn:hover {
-  background: linear-gradient(45deg, #f9b700, #f2c94c);
-  border-color: #f9b700;
-  color: #3a2e00;
-  animation-name: softShimmer;
-  animation-duration: 2s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-fill-mode: forwards;
-}
+  background: linear-gradient(45deg, var(--gold-color), #f2c94c);
+  border-color: var(--gold-color);
+  color: var(--dark-gold-text);
+  animation: softShimmer 0.5s ease-in-out forwards;
+} 
 
 @media (max-width: 600px) {
   .cta-btn {
