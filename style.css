@@ -280,7 +280,7 @@ a:focus {
   background: linear-gradient(45deg, var(--gold-color), #f2c94c);
   border-color: var(--gold-color);
   color: var(--dark-gold-text);
-  animation: softShimmer 0.5s ease-in-out forwards;
+  animation: softShimmer 2s ease-in-out infinite;
 }
 
 @media (max-width: 600px) {
