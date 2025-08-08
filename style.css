@@ -283,8 +283,17 @@ a:focus {
   color: var(--dark-gold-text);
   animation: softShimmer 0.5s ease-in-out forwards;
 }
-
-
+@keyframes softShimmer {
+  0% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(1.2);
+  }
+  100% {
+    filter: brightness(1);
+  }
+}
 @media (max-width: 600px) {
   .cta-btn {
     display: block;
