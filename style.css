@@ -259,7 +259,6 @@ a:focus {
 
 /* CTA Buttons */
 .cta-btn {
-  position: relative; /* allow shadows to show properly */
   display: inline-block;
   margin: 0.5rem 0.5rem;
   background-color: #cdeeee;
