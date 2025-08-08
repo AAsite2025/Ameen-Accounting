@@ -62,20 +62,6 @@ margin-right: 0.5rem;
 font-size: 1.2rem;
 color: #0bb;
 }
-.page-section ul {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-}
-
-.page-section ul li {
-  list-style: none;
-}
-
-.page-section ul li::before {
-  content: none !important;
-}
-
   .contact-top a:hover {
     text-decoration: underline;
   }
