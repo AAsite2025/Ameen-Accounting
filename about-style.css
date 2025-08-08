@@ -638,46 +638,5 @@ text-align: center;
         transform: scale(1.1);
         box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
       }
-  .floating-contact-icons {
-  position: fixed !important;
-  bottom: 20px !important;
-  right: 20px !important;
-  display: flex !important;
-  flex-direction: column !important;
-  gap: 15px !important;
-  z-index: 9999 !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-}
-
-.floating-icon {
-  background-color: white !important;
-  color: #25D366 !important;
-  font-size: 28px !important;
-  width: 60px !important;
-  height: 60px !important;
-  border-radius: 50% !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  text-decoration: none !important;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) !important;
-  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-}
-  
-.floating-icon i {
-  font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands" !important;
-}
-
-.floating-icon:hover {
-  transform: scale(1.1) !important;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3) !important;
-}
-
-.floating-icon i {
-  pointer-events: none !important;
-}
 
 </style>
