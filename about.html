@@ -234,40 +234,6 @@
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <!-- Required: On all pages -->
  <script src="script.js"></script>  
- <!-- Load Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  // Create container
-  const container = document.createElement("div");
-  container.className = "floating-contact-icons";
-
-  // Contact buttons
-  const icons = [
-    { href: "#contact-details", icon: "fa-solid fa-phone", label: "Skip to Contact Details" },
-    { href: "mailto:info@ameenaccounting.co.za", icon: "fa-solid fa-envelope", label: "Email" },
-    { href: "https://wa.me/27787699512", icon: "fa-brands fa-whatsapp", label: "WhatsApp", target: "_blank", rel: "noopener" }
-  ];
-
-  icons.forEach(item => {
-    const a = document.createElement("a");
-    a.href = item.href;
-    a.className = "floating-icon";
-    a.setAttribute("aria-label", item.label);
-    if (item.target) a.target = item.target;
-    if (item.rel) a.rel = item.rel;
-
-    const i = document.createElement("i");
-    i.className = item.icon;
-    a.appendChild(i);
-
-    container.appendChild(a);
-  });
-
-  document.body.appendChild(container);
-});
-</script>   
 </body>
 </html>
     
