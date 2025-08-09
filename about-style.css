@@ -19,8 +19,6 @@
 --gold-glow: #f7c94899;
 --text-glow: #f7c948aa;
 }
-
-
   body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
@@ -608,14 +606,14 @@ color: rgba(255, 255, 255, 0.5); /* Very light grey / transparent */
 text-align: center;
 }
 .floating-contact-icons {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        z-index: 9999;
-      }
+  position: fixed;  /* stays visible on scroll */
+  bottom: 20px;     /* distance from bottom of viewport */
+  right: 20px;      /* distance from right edge */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;        /* space between icons */
+  z-index: 1000;    /* stay on top */
+}
 
       .floating-icon {
         background-color: white;
