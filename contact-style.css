@@ -685,17 +685,34 @@
           text-decoration: underline;
         }
 
-        .footer-block {
-          flex: 0 1 auto;
-          /* don’t grow, can shrink */
-          max-width: 220px;
-          /* keep blocks narrow */
-        }
+       /* GENERAL FOOTER BLOCK STYLES */ 
+.footer-block {
+  flex: 0 1 auto;
+  max-width: 220px;
+  width: 100%;
+}
 
-        .footer-block {
-          width: 100%;
-        }
+.footer-block a {
+  white-space: nowrap;
+}
 
+.footer-block a:hover {
+  text-decoration: underline;
+}
+
+/* CONTACT ITEM INLINE STYLE FIX */
+.footer-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.footer-contact-item a {
+  color: white;
+  text-decoration: none;
+}
         /* Optional: indent for dropdowns */
         .dropdown-content {
           margin-left: 1rem;
@@ -922,3 +939,4 @@
           box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
         }
       </style>
+
