@@ -605,23 +605,36 @@ color: rgba(255, 255, 255, 0.5); /* Very light grey / transparent */
 .footer-copy {
 text-align: center;
 }
-/* ABOUT PAGE STYLES - cleaned version */
-
-/* Example: About page specific styles */
-.about-section {
-  padding: 50px 20px;
-  background-color: #f8f9fa;
+.floating-contact-icons {
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 15px !important;
+  z-index: 9999 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
 }
 
-.about-section h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
+.floating-contact-icons .floating-icon {
+  background-color: #25D366 !important;  /* Same as other pages */
+  color: white !important;
+  font-size: 28px !important;
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-decoration: none !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
 }
 
-.about-section p {
-  font-size: 1.125rem;
-  line-height: 1.6;
+.floating-contact-icons .floating-icon:hover {
+  transform: scale(1.1) !important;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3) !important;
 }
-
-/* Keep only About-specific CSS here — do NOT include floating-contact-icons or floating-icon rules */  
 </style>
