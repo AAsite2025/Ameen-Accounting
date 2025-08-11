@@ -605,33 +605,4 @@ color: rgba(255, 255, 255, 0.5); /* Very light grey / transparent */
 .footer-copy {
 text-align: center;
 }
-.floating-contact-icons {
-  position: fixed;  /* stays visible on scroll */
-  bottom: 20px;     /* distance from bottom of viewport */
-  right: 20px;      /* distance from right edge */
-  display: flex;
-  flex-direction: column;
-  gap: 15px;        /* space between icons */
-  z-index: 1000;    /* stay on top */
-}
-
-      .floating-icon {
-        background-color: white;
-        color: #25D366;
-        font-size: 28px;
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-      }
-
-      .floating-icon:hover {
-        transform: scale(1.1);
-        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
-      }
 </style>
