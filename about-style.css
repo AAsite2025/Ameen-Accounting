@@ -479,15 +479,17 @@ margin-bottom: 1rem;     /* Space below heading */
 .cta-btn i {
   margin-right: 0.5rem;
 }
-
 .cta-btn:hover {
   background: linear-gradient(45deg, var(--gold-color), #f2c94c);
-  border-color: var(--gold-color);
+  border-color: var(--light-teal); /* ✅ Light teal border */
   color: var(--dark-gold-text);
   text-decoration: underline;
   box-shadow: 0 0 10px var(--gold-color), 0 0 20px var(--gold-color);
   animation: pulse 3s ease-in-out infinite;
 }
+box-shadow:
+  0 0 6px var(--light-teal),
+  0 0 12px var(--gold-color);
 
 .cta-btn::before {
   content: "";
