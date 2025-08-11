@@ -606,35 +606,35 @@ color: rgba(255, 255, 255, 0.5); /* Very light grey / transparent */
 text-align: center;
 }
 .floating-contact-icons {
-  position: fixed !important;
-  bottom: 20px !important;
-  right: 20px !important;
-  display: flex !important;
-  flex-direction: column !important;
-  gap: 15px !important;
-  z-index: 9999 !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-  pointer-events: auto !important;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 9999;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .floating-contact-icons .floating-icon {
-  background-color: #25D366 !important;  /* Same as other pages */
-  color: white !important;
-  font-size: 28px !important;
-  width: 60px !important;
-  height: 60px !important;
-  border-radius: 50% !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  text-decoration: none !important;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) !important;
-  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  background-color: #25D366;  /* WhatsApp green */
+  color: white;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .floating-contact-icons .floating-icon:hover {
-  transform: scale(1.1) !important;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3) !important;
+  transform: scale(1.1);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
 }
 </style>
