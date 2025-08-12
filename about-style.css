@@ -507,22 +507,6 @@ text-decoration: underline;
     opacity: 0.3;
   }
 }
-
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-    box-shadow: 0 0 8px var(--gold-color), 0 0 16px var(--gold-color);
-  }
-  50% {
-    transform: scale(1.05);
-    box-shadow: 0 0 12px var(--gold-color), 0 0 24px var(--gold-color);
-  }
-  100% {
-    transform: scale(1);
-    box-shadow: 0 0 8px var(--gold-color), 0 0 16px var(--gold-color);
-  }
-}
-
 @media (max-width: 600px) {
   .cta-btn {
     display: block;
