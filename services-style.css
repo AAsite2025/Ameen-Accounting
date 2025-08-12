@@ -913,6 +913,10 @@
       .footer-copy {
         text-align: center;
       }
+    
+header.hero {
+  background: none !important;
+}
 
       .floating-contact-icons {
         position: fixed;
@@ -951,4 +955,5 @@
         }
       }
     </style>
+
 
