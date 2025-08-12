@@ -860,6 +860,8 @@ footer::before {
   text-decoration: none;
   font-size: 1.1rem;
   transition: background-color 0.3s ease;
+  position: relative;         /* ✅ Add this */
+  overflow: hidden;           /* ✅ And this *
 }
 
 .cta-btn i {
