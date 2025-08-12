@@ -178,6 +178,89 @@
           /* fade-in together on small screens */
         }
       }
+
+      /* Navigation */
+      nav {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        padding: 0.5rem 0;
+        background-color: #e6f3f3;
+        /* Light mint tint */
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #07484a;
+        font-weight: 600;
+        font-size: 1.1rem;
+        cursor: pointer;
+        animation: fadeSlideIn 1s ease forwards;
+      }
+
+      nav a.active {
+        color: #ffd700;
+        /* or your brand highlight color */
+        font-weight: bold;
+        text-decoration: underline;
+      }
+
+      nav a:hover,
+      nav a:focus {
+        text-decoration: underline;
+        /* Reinforces visual link cue */
+        outline: 3px solid #55a4a4;
+        /* Ensures keyboard users see focus */
+        outline-offset: 2px;
+      }
+
+      /* Staggered animation delays */
+      nav a:nth-child(1) {
+        animation-delay: 0s;
+      }
+
+      nav a:nth-child(2) {
+        animation-delay: 0.1s;
+      }
+
+      nav a:nth-child(3) {
+        animation-delay: 0.2s;
+      }
+
+      nav a:nth-child(4) {
+        animation-delay: 0.3s;
+      }
+
+      nav a:nth-child(5) {
+        animation-delay: 0.4s;
+      }
+
+      nav a:nth-child(6) {
+        animation-delay: 0.5s;
+      }
+
+      /* Animation keyframes */
+      @keyframes fadeSlideIn {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+
+      /* Accessibility: Focus styles */
+      nav a:focus,
+      button:focus,
+      a:focus {
+        outline: 3px solid #0bb;
+        outline-offset: 2px;
+        box-shadow: 0 0 5px 2px #0bb;
+      }
+
       .company-name {
         font-size: 4rem;
         font-weight: 900;
@@ -507,6 +590,12 @@
           width: 120px;
         }
       }
+
+      #footerContactCTA {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+
       /* Footer */
       footer {
         position: relative;
@@ -540,6 +629,84 @@
         padding: 0;
         padding-right: 6rem;
       }
+
+      /* Footer Branding Section (Top-Left) */
+      .footer-branding {
+        max-width: 250px;
+        font-size: 0.65rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0;
+        animation: fadeIn 2s ease forwards;
+      }
+
+      .footer-branding {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+      }
+
+      .footer-branding {
+        max-width: 260px;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 1rem 1.25rem;
+        animation: fadeIn 2s ease forwards;
+      }
+
+      .footer-logo {
+        height: 45px;
+        /* increased from 35px */
+        max-width: 100%;
+        display: block;
+      }
+
+      .footer-branding-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .footer-company-name {
+        font-weight: 700;
+        font-size: 0.85rem;
+        /* was 0.6rem */
+        color: white;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 3px gold;
+        margin-bottom: 0.15rem;
+        user-select: none;
+      }
+
+      .footer-tagline {
+        font-size: 0.55rem;
+        /* was 0.4rem */
+        font-weight: 500;
+        color: #e0f7f6;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        opacity: 0;
+        animation: fadeIn 2s ease forwards;
+        animation-delay: 1s;
+        user-select: none;
+      }
+
+      /* Responsive tweaks */
+      @media (max-width: 768px) {
+        .footer-branding {
+          flex-direction: column;
+          text-align: center;
+          gap: 0.5rem;
+        }
+      }
+
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
+
       /* Each content block */
       .footer-block {
         flex: 0 1 auto;
@@ -629,6 +796,69 @@
           transition: none !important;
         }
       }
+
+      /* CTA Buttons */
+      .cta-btn {
+        display: inline-block;
+        margin: 0.5rem 0.5rem;
+        background-color: #cdeeee;
+        color: #07484a;
+        padding: 0.75rem 1.5rem;
+        border: 2px solid #f9b700;
+        border-radius: 8px;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 1.1rem;
+        transition: background-color 0.3s ease;
+      }
+
+      .cta-btn i {
+        margin-right: 0.5rem;
+      }
+
+      .cta-btn:hover {
+        background: linear-gradient(45deg, var(--gold-color), #f2c94c);
+        border-color: var(--gold-color);
+        color: var(--dark-gold-text);
+        animation: softShimmer 0.5s ease-in-out forwards;
+        text-decoration: underline;
+      }
+
+      .cta {
+        color: #004d4d;
+        text-align: center;
+        padding: 2rem 1rem 3rem;
+        position: relative;
+        overflow: hidden;
+        animation: fadeInUp 1s ease-out both;
+      }
+
+      .cta::before {
+        content: "";
+        position: absolute;
+        top: -50px;
+        left: -80px;
+        width: 250px;
+        height: 250px;
+        background: radial-gradient(circle at center, #ffd70033, transparent 70%);
+        border-radius: 50%;
+        z-index: 0;
+        filter: blur(10px);
+      }
+
+      .cta::after {
+        content: "";
+        position: absolute;
+        bottom: -40px;
+        right: -60px;
+        width: 200px;
+        height: 200px;
+        background: radial-gradient(circle at center, #ffd70044, transparent 70%);
+        border-radius: 50%;
+        z-index: 0;
+        filter: blur(8px);
+      }
+
       .contact-badge {
         display: inline-block;
         background: #ffd700;
@@ -693,7 +923,53 @@
         }
       }
 
-     .skip-link {
+      .branding {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1.5rem 2rem 1rem 2rem;
+        animation: fadeIn 2s ease forwards;
+      }
+
+      /* New container for company name and tagline stacked vertically */
+      .branding-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      /* Company name in caps, bold, white with shadow, size smaller than .company-name */
+      .company-name-header {
+        font-weight: 900;
+        font-size: 1.6rem;
+        color: white;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 6px gold;
+        margin-bottom: 0.3rem;
+        /* spacing below company name */
+        user-select: none;
+      }
+
+      footer {
+        padding: 3rem 1rem;
+        color: #e0f7f6;
+        font-family: Arial, sans-serif;
+      }
+
+      /* Adjust tagline to move it down a bit */
+      .tagline {
+        font-size: 0.7rem;
+        font-weight: 500;
+        color: #e0f7f6;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        opacity: 0;
+        animation: fadeIn 2s ease forwards;
+        animation-delay: 1s;
+        user-select: none;
+      }
+
+      .skip-link {
         position: absolute;
         left: -999px;
         top: auto;
@@ -776,7 +1052,43 @@
       .footer-copy {
         text-align: center;
       }
+
+      .floating-contact-icons {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        z-index: 9999;
+      }
+
+      .floating-icon {
+        background-color: white;
+        color: #25D366;
+        font-size: 28px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      .floating-icon:hover {
+        transform: scale(1.1);
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+      }
+.floating-icon i,
+i[class^="fa-"],
+i[class*=" fa-"] {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
     </style>
-
-
 
