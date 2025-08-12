@@ -873,8 +873,17 @@ footer::before {
   animation: softShimmer 0.5s ease-in-out forwards;
   text-decoration: underline;
 }
-
-
+@keyframes softShimmer {
+  0% {
+    box-shadow: 0 0 5px var(--gold-glow);
+  }
+  50% {
+    box-shadow: 0 0 15px var(--gold-glow);
+  }
+  100% {
+    box-shadow: 0 0 5px var(--gold-glow);
+  }
+}
 @media (max-width: 600px) {
   .cta-btn {
     display: block;
