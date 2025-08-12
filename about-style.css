@@ -479,6 +479,9 @@ margin-bottom: 1rem;     /* Space below heading */
   margin-right: 0.5rem;
 }
 .why-work-cta .cta-btn:hover {
+  border-color: var(--light-teal);
+  background: linear-gradient(45deg, var(--gold-color), #f2c94c);
+  color: var(--dark-gold-text);
   box-shadow: 0 0 10px var(--deep-teal), 0 0 20px var(--deep-teal);
 }
 .cta-btn:hover {
@@ -486,7 +489,11 @@ margin-bottom: 1rem;     /* Space below heading */
   background: linear-gradient(45deg, var(--gold-color), #f2c94c);
   color: var(--dark-gold-text);
   text-decoration: underline;
-  box-shadow: 0 0 10px var(--gold-color), 0 0 20px var(--gold-color);
+  box-shadow:
+    0 0 10px var(--gold-color),
+    0 0 20px var(--gold-color),
+    0 0 10px var(--deep-teal),
+    0 0 20px var(--deep-teal);
   animation: pulse 3s ease-in-out infinite;
 }
 .cta-btn::before {
