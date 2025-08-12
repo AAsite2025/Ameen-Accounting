@@ -475,27 +475,20 @@ margin-bottom: 1rem;     /* Space below heading */
   z-index: 0;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
+
 .cta-btn i {
   margin-right: 0.5rem;
 }
-.why-work-cta .cta-btn:hover {
-  border-color: var(--light-teal);
-  background: linear-gradient(45deg, var(--gold-color), #f2c94c);
-  color: var(--dark-gold-text);
-  box-shadow: 0 0 10px var(--deep-teal), 0 0 20px var(--deep-teal);
-}
+
 .cta-btn:hover {
   border-color: var(--light-teal);
   background: linear-gradient(45deg, var(--gold-color), #f2c94c);
   color: var(--dark-gold-text);
   text-decoration: underline;
-  box-shadow:
-    0 0 10px var(--gold-color),
-    0 0 20px var(--gold-color),
-    0 0 10px var(--deep-teal),
-    0 0 20px var(--deep-teal);
+  box-shadow: 0 0 10px var(--gold-color), 0 0 20px var(--gold-color);
   animation: pulse 3s ease-in-out infinite;
 }
+
 .cta-btn::before {
   content: "";
   position: absolute;
@@ -542,6 +535,7 @@ margin-bottom: 1rem;     /* Space below heading */
     box-shadow: 0 0 8px var(--gold-color), 0 0 16px var(--gold-color);
   }
 }
+
 @media (max-width: 600px) {
   .cta-btn {
     display: block;
