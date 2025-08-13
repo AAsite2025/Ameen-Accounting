@@ -155,12 +155,6 @@
 .contact-form button:hover {
   background-color: #007777;
 }
-.contact-form button {
-  position: relative;
-  margin-top: 2rem;
-  padding-top: 1.2rem;
-  border-top: 1px solid #ccc; /* Soft horizontal line */
-}
 @keyframes shimmer {
   0% {
     background-position: -200px 0;
@@ -215,6 +209,7 @@
   }
 }    
       </style>
+
 
 
 
