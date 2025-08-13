@@ -875,28 +875,6 @@ footer::before {
 .cta-btn i {
   margin-right: 0.5rem;
 }
-.cta-btn.shimmer {
-  background-image: linear-gradient(
-    120deg,
-    #007777 0%,
-    #009999 50%,
-    #007777 100%
-  );
-  background-size: 400px 100%;
-  animation: shimmerTeal 1.5s linear infinite;
-  color: white;
-  border: 2px solid #009999;
-  transition: background-color 0.3s ease;
-}
-
-@keyframes shimmerTeal {
-  0% {
-    background-position: -200px 0;
-  }
-  100% {
-    background-position: 200px 0;
-  }
-}
 .branding {
   display: flex;
   align-items: center;
@@ -1014,7 +992,28 @@ footer {
     display: flex;
   }
 }
+.cta-btn.shimmer {
+  background-image: linear-gradient(
+    120deg,
+    #007777 0%,
+    #009999 50%,
+    #007777 100%
+  );
+  background-size: 400px 100%;
+  animation: shimmerTeal 1.5s linear infinite;
+  color: white;
+  border: 2px solid #009999;
+  transition: background-color 0.3s ease;
+}
 
+@keyframes shimmerTeal {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: 200px 0;
+  }
+}
   .footer-copy {
     text-align: center;
     font-size: 0.9rem;
