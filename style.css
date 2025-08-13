@@ -875,6 +875,7 @@ footer::before {
 .cta-btn i {
   margin-right: 0.5rem;
 }
+
 .cta-btn::before {
   content: "";
   position: absolute;
