@@ -97,6 +97,11 @@
   min-width: 300px;
   max-width: 100%;
 }
+.contact-form-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .contact-form {
   width: 100%;
@@ -185,6 +190,7 @@
   }
 }    
       </style>
+
 
 
 
