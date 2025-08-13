@@ -851,9 +851,9 @@ footer::before {
 :root {
   --light-teal: #cdeeee;
   --main-color: #07484a;
-  --deep-teal: #007777;
-  --mid-teal: #009999;
-  --teal-glow: rgba(0, 153, 153, 0.4);
+  --gold-color: #f9b700;
+  --dark-gold-text: #7a5c00;
+  --teal-glow: rgba(0, 153, 153, 0.4); /* replaces gold-glow */
 }
 
 .cta-btn {
@@ -862,7 +862,7 @@ footer::before {
   background-color: var(--light-teal);
   color: var(--main-color);
   padding: 0.75rem 1.5rem;
-  border: 2px solid var(--mid-teal);
+  border: 2px solid var(--gold-color); /* gold border retained */
   border-radius: 8px;
   font-weight: bold;
   text-decoration: none;
@@ -895,9 +895,9 @@ footer::before {
 }
 
 .cta-btn:hover {
-  background: linear-gradient(45deg, var(--deep-teal), var(--mid-teal));
-  border-color: var(--mid-teal);
-  color: white;
+  background: linear-gradient(45deg, var(--gold-color), #f2c94c);
+  border-color: var(--gold-color);
+  color: var(--dark-gold-text);
   text-decoration: underline;
 }
 
