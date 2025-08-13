@@ -1000,12 +1000,13 @@ footer {
     #007777 100%
   );
   background-size: 400px 100%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
   animation: shimmerTeal 1.5s linear infinite;
   color: white;
   border: 2px solid #009999;
   transition: background-color 0.3s ease;
 }
-
 @keyframes shimmerTeal {
   0% {
     background-position: -200px 0;
