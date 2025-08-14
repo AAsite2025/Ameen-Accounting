@@ -324,7 +324,12 @@ a:focus {
   margin: 0 auto 3rem auto;
   text-align: center;
 }
-
+.section-subtitle {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 1em;
+  font-size: 1.1rem; /* adjust to match your design */
+}
 #about .about-icons-container {
   display: flex;
   justify-content: center;
