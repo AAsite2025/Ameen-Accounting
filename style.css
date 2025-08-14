@@ -853,7 +853,7 @@ footer::before {
   --main-color: #07484a;
   --gold-color: #f9b700;
   --dark-gold-text: #7a5c00;
-  --gold-glow: rgba(100, 200, 200, 0.4); /* lighter teal shimmer */
+  --gold-glow: rgba(120, 220, 220, 0.3) → softer and brighter
 }
 
 .cta-btn {
