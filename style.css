@@ -798,13 +798,13 @@ footer p {
 .footer-block {
   width: 100%;
 }
-
+.footer-block {
+  margin-bottom: 1rem;
+}
 /* Optional: indent for dropdowns */
 .dropdown-content {
   margin-left: 1rem;
 }
-
-
 /* Responsive: stack vertically and maintain padding */
 @media (max-width: 768px) {
   .footer-container {
