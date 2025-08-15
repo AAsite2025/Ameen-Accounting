@@ -801,7 +801,7 @@ footer p {
 .footer-cta {
   text-align: center;
   margin-top: 2rem;
-  margin-bottom: .5rem; /* adds space above the footer blocks */
+  margin-bottom: 2.5rem; /* adds space above the footer blocks */
 }
 /* Optional: indent for dropdowns */
 .dropdown-content {
