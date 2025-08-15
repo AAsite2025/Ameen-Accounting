@@ -798,8 +798,8 @@ footer p {
 .footer-block {
   width: 100%;
 }
-.footer-block {
-  margin-bottom: 1rem;
+.footer-content {
+  margin-bottom: 1.5rem;
 }
 /* Optional: indent for dropdowns */
 .dropdown-content {
