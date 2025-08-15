@@ -635,6 +635,7 @@ footer {
   text-align: left;
   padding: 0rem 4rem 4rem 0rem;
   /* top right bottom left */
+  padding-top: 1.5rem;
   margin-top: 0;
   width: 100%;
 }
