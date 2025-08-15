@@ -681,6 +681,13 @@ footer::before {
   z-index: -1;
   pointer-events: none;
 }
+footer {
+  padding-top: 0rem !important;
+}
+
+footer p {
+  margin-top: 0;
+}
 
 /* Footer Branding Section (Top-Left) */
 .footer-branding {
