@@ -798,8 +798,10 @@ footer p {
 .footer-block {
   width: 100%;
 }
-.footer-content {
-  margin-bottom: 1.5rem;
+.footer-cta {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem; /* adds space above the footer blocks */
 }
 /* Optional: indent for dropdowns */
 .dropdown-content {
