@@ -368,6 +368,16 @@ a:focus {
     min-width: 120px;
   }
 }
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+  max-width: 700px;
+}
+.about-section p:last-child {
+  font-weight: 500;
+  color: #444;
+}
 
 /* Moved this OUTSIDE the media query */
 .animated-icon {
