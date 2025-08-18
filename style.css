@@ -1048,7 +1048,7 @@ footer {
     text-align: center;
     font-size: 0.9rem;
     margin-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
   }
   /* Footer copyright note */
   .footer-copy {
@@ -1068,11 +1068,6 @@ footer {
   gap: 15px;
   z-index: 9999;
   }
-
-
-.footer-copy {
-  text-align: center;
-}
 .floating-contact-icons {
   position: fixed;
   bottom: 20px;
@@ -1116,19 +1111,12 @@ html, body {
   height: 100%;
   margin: 0;
 }
-
 .page-wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh; 
 }
 /* Footer copyright note */
-@font-face {
-  font-family: 'Simplifica';
-  src: url('fonts/Simplifica.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
 .footer-copy {
   font-family: 'Segoe UI', sans-serif;
   font-size: 0.95rem;
