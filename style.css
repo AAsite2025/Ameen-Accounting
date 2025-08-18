@@ -1123,12 +1123,14 @@ html, body {
   min-height: 100vh; 
 }
 /* Footer copyright note */
-.footer-copy {
-text-align: center;
-font-size: 0.85rem;
-margin-top: 2rem;
-color: #d4d4d4; /* Professional light silver */
-text-shadow: 0 0 4px rgba(255, 255, 255, 0.1); /* Optional soft glow */
+.footer-copyright {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #c0c0c0;
+  font-family: 'Inter', 'Helvetica Neue', sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.5px;
 }
 .footer-copy {
 text-align: center;
