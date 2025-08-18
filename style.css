@@ -1127,7 +1127,8 @@ html, body {
 text-align: center;
 font-size: 0.85rem;
 margin-top: 2rem;
-color: rgba(255, 255, 255, 0.5); /* Very light grey / transparent */
+color: #d4d4d4; /* Professional light silver */
+text-shadow: 0 0 4px rgba(255, 255, 255, 0.1); /* Optional soft glow */
 }
 .footer-copy {
 text-align: center;
