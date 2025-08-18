@@ -660,7 +660,7 @@ footer {
 footer {
   position: relative;
   color: #cce8e6;
-  padding: 4rem 4rem;
+  padding: 1.5rem 4rem 0rem 4rem; /* top right bottom left */
   overflow: visible;
   z-index: 1;
   /* keep content above background */
