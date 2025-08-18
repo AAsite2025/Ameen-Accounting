@@ -1108,14 +1108,11 @@ html, body {
   min-height: 100vh;
 }
 
-footer {
-  margin-top: auto;
-}
-
 .footer-bottom {
   text-align: center;
   font-size: 0.9rem;
-  color: #bbb; /* lighter grey */
-  padding: 1rem 0;
+  color: #888;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
 }
 </style>
