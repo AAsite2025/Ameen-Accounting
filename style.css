@@ -1123,13 +1123,21 @@ html, body {
   min-height: 100vh; 
 }
 /* Footer copyright note */
-.footer-copyright {
+@font-face {
+  font-family: 'Simplifica';
+  src: url('fonts/Simplifica.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.footer-copy {
+  font-family: 'Simplifica', sans-serif;
+  font-size: 12px;
+  color: #ffffff;
   text-align: center;
   margin-top: 1rem;
-  font-size: 0.80rem;
-  color: #c0c0c0;
-  font-family: 'Inter', 'Helvetica Neue', sans-serif;
-  font-weight: 90;
+  line-height: 1.4;
+  font-weight: 300;
   letter-spacing: 0.5px;
 }
 .footer-copy {
