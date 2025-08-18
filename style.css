@@ -1097,5 +1097,14 @@ footer {
   transform: scale(1.1);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
 }
-
+footer {
+  padding-bottom: 3rem;
+  position: relative;
+}
+.footer-bottom {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #cce8e6;
+  margin-top: 2rem;
+}
 </style>
