@@ -433,7 +433,50 @@
           /* Or adjust to 1rem if you want it tighter */
         }
       }
+/* Footer copyright note */
+.footer-copy {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 1.5rem;
+  line-height: 1.4;
+  font-weight: lighter;
+  text-align: center;
+}
+.footer-bottom {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #bbb;
+  margin-top: auto;       /* ✅ Pushes footer to bottom */
+  padding: 1rem 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+footer {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+}
     </style>
+
 
 
 
