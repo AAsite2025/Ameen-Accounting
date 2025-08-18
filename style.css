@@ -1123,12 +1123,6 @@ html, body {
   flex-direction: column;
   min-height: 100vh; 
 }
-.footer-copy {
-text-align: center;
-font-size: 0.9rem;
-margin-top: 2rem;
-padding-bottom: 2rem;
-}
 /* Footer copyright note */
 .footer-copy {
 text-align: center;
@@ -1145,5 +1139,7 @@ text-align: center;
   color: #bbb;
   margin-top: auto;       /* ✅ Pushes footer to bottom */
   padding: 1rem 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 </style>
