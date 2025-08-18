@@ -1129,16 +1129,13 @@ html, body {
   font-weight: normal;
   font-style: normal;
 }
-
 .footer-copy {
-  font-family: 'Simplifica', sans-serif;
-  font-size: 12px;
-  color: #ffffff;
-  text-align: center;
-  margin-top: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 1.5rem;
   line-height: 1.4;
-  font-weight: 300;
-  letter-spacing: 0.5px;
+  font-weight: lighter;
 }
 .footer-copy {
 text-align: center;
