@@ -1097,14 +1097,25 @@ footer {
   transform: scale(1.1);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
 }
-footer {
-  padding-bottom: 3rem;
-  position: relative;
+html, body {
+  height: 100%;
+  margin: 0;
 }
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
+
 .footer-bottom {
   text-align: center;
   font-size: 0.9rem;
-  color: #888;
-  margin-top: 6rem;
+  color: #bbb; /* lighter grey */
+  padding: 1rem 0;
 }
 </style>
