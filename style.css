@@ -414,15 +414,28 @@ a:focus {
   z-index: 1;
 }
 
-#consultant>div:nth-child(2) {
+#consultant > div:nth-child(2) {
   position: relative;
   z-index: 2;
   max-width: 800px;
   text-align: center;
   color: #07484a;
-  margin-top: 6rem; 
+  margin-top: 6rem;
+  padding: 2rem; /* Optional: adds breathing room inside */
+  background-color: transparent; /* Ensure no background conflicts */
 }
 
+#consultant > div:nth-child(2)::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(69, 212, 208, 0.2); /* Soft teal */
+  border-radius: 12px; /* Optional: soft corners */
+  z-index: -1; /* Places it behind the text */
+}
 #consultant h2 {
   font-size: 3rem;
   font-weight: 800;
