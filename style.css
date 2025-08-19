@@ -459,7 +459,6 @@ a:focus {
 .overlay-text {
   background-color: rgba(205, 238, 238, 0.85); /* soft teal */
   color: #07484a;
-  padding: 1.5rem 2rem;
   border-radius: 12px;
   max-width: 600px; /* reduced from 800px */
   margin: 0 auto;
