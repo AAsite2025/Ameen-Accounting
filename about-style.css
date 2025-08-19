@@ -146,6 +146,76 @@ opacity: 0;               /* start hidden for fade-in */
 animation: fadeIn 2s ease forwards;
 animation-delay: 1s;      /* fade in after logo */
 }
+.specialisation-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  align-items: flex-start;
+  margin-top: 2em;
+}
+
+.specialisation-list {
+  flex: 1 1 300px;
+}
+
+.expectations-card {
+  background-color: #e6f3f3;
+  border: 1px solid #cce5e5;
+  border-radius: 8px;
+  padding: 1.2em;
+  max-width: 320px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  font-family: 'Segoe UI', sans-serif;
+  animation: fadeInUp 0.8s ease-out;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex: 1 1 280px;
+}
+
+.expectations-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+.leaf-icon {
+  font-size: 1.5em;
+  color: #4a7c59;
+  margin-bottom: 0.5em;
+  transition: transform 0.3s ease;
+}
+
+.leaf-icon:hover {
+  transform: rotate(-10deg) scale(1.1);
+}
+
+.expectations-card h3 {
+  margin: 0;
+  font-size: 1.1em;
+  color: #2c4c4c;
+}
+
+.expectations-card p {
+  margin: 0;
+  font-size: 0.95em;
+  color: #333;
+  line-height: 1.5;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 600px) {
+  .specialisation-wrapper {
+    flex-direction: column;
+  }
+}
 
 /* Fade-in keyframes */
 @keyframes fadeIn {
