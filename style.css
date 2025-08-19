@@ -406,7 +406,7 @@ a:focus {
 
 #consultant>div:first-child {
   position: absolute;
-  top: 4;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
@@ -420,6 +420,7 @@ a:focus {
   max-width: 800px;
   text-align: center;
   color: #07484a;
+  margin-top: 3rem; 
 }
 
 #consultant h2 {
