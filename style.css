@@ -456,17 +456,6 @@ a:focus {
   color: #07484a;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
-.overlay-text {
-  background-color: rgba(205, 238, 238, 0.85); /* soft teal */
-  color: #07484a;
-  padding: 2rem;
-  border-radius: 12px;
-  max-width: 600px; /* reduced from 800px */
-  margin: 0 auto;
-  text-align: center;
-  backdrop-filter: blur(4px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
 .services-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
