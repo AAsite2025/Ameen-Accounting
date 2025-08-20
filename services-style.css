@@ -292,7 +292,8 @@
       }
 
       .services h2 {
-        font-size: 2rem;
+        font-size: 3rem;
+        font-weight: 700;   
         margin-bottom: 5rem;
         color: #004d4d;
         border-bottom: 4px solid #ffd700;
@@ -487,6 +488,7 @@ header.hero {
     </style>
 
  
+
 
 
 
