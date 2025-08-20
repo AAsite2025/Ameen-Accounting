@@ -178,89 +178,6 @@
           /* fade-in together on small screens */
         }
       }
-
-      /* Navigation */
-      nav {
-        display: flex;
-        justify-content: center;
-        gap: 2rem;
-        padding: 0.5rem 0;
-        background-color: #e6f3f3;
-        /* Light mint tint */
-      }
-
-      nav a {
-        text-decoration: none;
-        color: #07484a;
-        font-weight: 600;
-        font-size: 1.1rem;
-        cursor: pointer;
-        animation: fadeSlideIn 1s ease forwards;
-      }
-
-      nav a.active {
-        color: #ffd700;
-        /* or your brand highlight color */
-        font-weight: bold;
-        text-decoration: underline;
-      }
-
-      nav a:hover,
-      nav a:focus {
-        text-decoration: underline;
-        /* Reinforces visual link cue */
-        outline: 3px solid #55a4a4;
-        /* Ensures keyboard users see focus */
-        outline-offset: 2px;
-      }
-
-      /* Staggered animation delays */
-      nav a:nth-child(1) {
-        animation-delay: 0s;
-      }
-
-      nav a:nth-child(2) {
-        animation-delay: 0.1s;
-      }
-
-      nav a:nth-child(3) {
-        animation-delay: 0.2s;
-      }
-
-      nav a:nth-child(4) {
-        animation-delay: 0.3s;
-      }
-
-      nav a:nth-child(5) {
-        animation-delay: 0.4s;
-      }
-
-      nav a:nth-child(6) {
-        animation-delay: 0.5s;
-      }
-
-      /* Animation keyframes */
-      @keyframes fadeSlideIn {
-        0% {
-          opacity: 0;
-          transform: translateX(-20px);
-        }
-
-        100% {
-          opacity: 1;
-          transform: translateX(0);
-        }
-      }
-
-      /* Accessibility: Focus styles */
-      nav a:focus,
-      button:focus,
-      a:focus {
-        outline: 3px solid #0bb;
-        outline-offset: 2px;
-        box-shadow: 0 0 5px 2px #0bb;
-      }
-
       .company-name {
         font-size: 4rem;
         font-weight: 900;
@@ -295,9 +212,9 @@
       }
 
       .hero h1 {
-        font-weight: 700;
+        font-weight: 800;
         /* Bold */
-        font-size: 2.5rem;
+        font-size: 3.0rem;
         /* Bigger */
         margin-bottom: 1rem;
       }
@@ -571,5 +488,6 @@ header.hero {
     </style>
 
  
+
 
 
