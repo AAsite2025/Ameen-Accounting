@@ -256,7 +256,7 @@ text-shadow: 0 0 10px gold, 0 0 20px #fff;
 .page-section h1,
 .page-section h2 {
 font-weight: 700;        /* Bold */
-font-size: 2.5rem;       /* Bigger text, adjust as needed */
+font-size: 3.0rem;       /* Bigger text, adjust as needed */
 border-bottom: 4px solid gold; /* Thick gold underline */
 padding-bottom: 0.3rem;  /* Space between text and underline */
 margin-bottom: 1rem;     /* Space below heading */
@@ -265,7 +265,7 @@ margin-bottom: 1rem;     /* Space below heading */
 .page-section h1,
 .page-section h2 {
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 3.0rem;
   border-bottom: 4px solid gold;
   padding-bottom: 0.3rem;
   margin-bottom: 1rem;
