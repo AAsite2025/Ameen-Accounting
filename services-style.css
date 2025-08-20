@@ -239,13 +239,6 @@
         font-weight: bold;
         /* Make subheading bold */
       } 
-      .what-we-do-title {
-        font-size: 3rem;
-        font-weight: 700;
-        color: #004d4d;
-        text-align: center;
-        margin: 2rem 0 1rem;
-      } 
       .intro {
         max-width: 800px;
         margin: 3rem auto;
@@ -494,6 +487,7 @@ header.hero {
     </style>
 
  
+
 
 
 
