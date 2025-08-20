@@ -238,12 +238,7 @@
         max-width: 600px;
         font-weight: bold;
         /* Make subheading bold */
-      }
-   .hero h2 {
-  font-weight: 700; /* Bold */
-  font-size: 3.0rem; /* Bigger */
-  margin-bottom: 1rem;
-}  
+      } 
       .intro {
         max-width: 800px;
         margin: 3rem auto;
@@ -492,6 +487,7 @@ header.hero {
     </style>
 
  
+
 
 
 
