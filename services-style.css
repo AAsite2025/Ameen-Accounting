@@ -260,7 +260,7 @@
       .highlight-overlay {
         max-width: 900px;
         margin: 0 auto;
-        background-color: #e6f3f3;
+        background-color: #cdeeee;
         /* transparent white overlay for text only */
         padding: 2rem;
         border-radius: 1rem;
@@ -492,6 +492,7 @@ header.hero {
     </style>
 
  
+
 
 
 
