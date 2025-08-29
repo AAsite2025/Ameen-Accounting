@@ -990,17 +990,6 @@ footer {
   animation-delay: 1s;
   user-select: none;
 }
-
-.skip-link {
-  position: absolute;
-  left: -999px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  z-index: 100;
-}
-
 .skip-link {
   position: absolute;
   left: -999px;
