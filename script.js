@@ -53,9 +53,10 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 });
-function toggleDropdown() {
+function togglePrivacy() {
   const dropdown = document.getElementById("privacyDropdown");
   dropdown.classList.toggle("show");
 }
+
 
 
