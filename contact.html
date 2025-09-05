@@ -122,15 +122,15 @@ Ya Allah, accept this effort and guide its impact.
           </div>
         </section>
          <div class="policy-section">
-  <button class="collapsible">🛡️ Privacy Policy for Ameen Accounting</button>
-  <div class="content">
-    <p><strong>Effective Date:</strong> 5 September 2025</p>
-    <p><strong>Last Updated:</strong> 5 September 2025</p>
-    <p><strong>Who We Are:</strong> Ameen Accounting is a South African-based accounting consultancy...</p>
+  <button class="collapsible">🛡️ Privacy Policy</button>
+<div class="collapsible-content">
+  <div class="scrollable-policy">
+    <p><strong>Introduction:</strong> We value your privacy and are committed to protecting your data...</p>
+    <p><strong>Data Collection:</strong> We collect only what is necessary to serve you...</p>
+    <p><strong>Cookies:</strong> We use cookies to enhance your experience...</p>
 <div class="content">
   <p><strong>Effective Date:</strong> 5 September 2025<br>
      <strong>Last Updated:</strong> 5 September 2025</p>
-
   <p><strong>1. Who We Are</strong><br>
      Ameen Accounting is a South African-based accounting consultancy offering audit-ready financial services, strategic workflows, and compliance tools for law firms, nonprofits, and growing businesses.</p>
 
@@ -171,35 +171,23 @@ Ya Allah, accept this effort and guide its impact.
 </div>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const collapsibles = document.querySelectorAll(".collapsible");
+    const button = document.querySelector(".collapsible");
+    const content = document.querySelector(".collapsible-content");
 
-    collapsibles.forEach(button => {
-      button.addEventListener("click", function () {
-        this.classList.toggle("active");
-        const content = this.nextElementSibling;
-        content.style.display = content.style.display === "block" ? "none" : "block";
-      });
+    button.addEventListener("click", function () {
+      content.classList.toggle("open");
     });
 
-    // Auto-close logic
-    function closePrivacyPanel() {
-      const privacyToggle = document.querySelector(".collapsible.active");
-      if (privacyToggle) {
-        privacyToggle.classList.remove("active");
-        const content = privacyToggle.nextElementSibling;
-        if (content) {
-          content.style.display = "none";
-        }
-      }
+    // Optional: Auto-close on navigation
+    function closePanel() {
+      content.classList.remove("open");
     }
 
-    // Close on navigation link click
-    document.querySelectorAll("nav a, footer a, .menu a").forEach(link => {
-      link.addEventListener("click", closePrivacyPanel);
+    document.querySelectorAll("nav a, footer a").forEach(link => {
+      link.addEventListener("click", closePanel);
     });
 
-    // Close on hash change
-    window.addEventListener("hashchange", closePrivacyPanel);
+    window.addEventListener("hashchange", closePanel);
   });
 </script>
       </body>
@@ -435,6 +423,7 @@ Ya Allah, accept this effort and guide its impact.
   </body>
 
 </html>
+
 
 
 
