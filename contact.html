@@ -180,7 +180,27 @@ Ya Allah, accept this effort and guide its impact.
       });
     });
   });
-</script>   
+</script>  
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const privacyPanel = document.getElementById("privacy-panel"); // adjust to your actual ID
+    const toggleButton = document.getElementById("privacy-toggle"); // optional, if you use a toggle
+
+    function closePrivacyPanel() {
+      if (privacyPanel && privacyPanel.classList.contains("open")) {
+        privacyPanel.classList.remove("open");
+      }
+    }
+
+    // Close on navigation link click
+    document.querySelectorAll("nav a, footer a, .menu a").forEach(link => {
+      link.addEventListener("click", closePrivacyPanel);
+    });
+
+    // Close on hash change (e.g., #contact, #services)
+    window.addEventListener("hashchange", closePrivacyPanel);
+  });
+</script>    
         <!-- Map -->
         <div class="contact-map">
           <iframe src="https://www.google.com/maps?q=Pretoria+Road,+Rynfield,+Benoni,+1501&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -423,6 +443,7 @@ Ya Allah, accept this effort and guide its impact.
   </body>
 
 </html>
+
 
 
 
