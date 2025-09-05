@@ -197,7 +197,13 @@
   border: none;
   border-radius: 8px;
 }
-
+#map {
+  position: relative;
+  z-index: 1;
+}
+.collapsible + .content {
+  z-index: 2;
+}
 /* Responsive tweaks */
 @media (max-width: 768px) {
   .contact-container {
@@ -282,6 +288,7 @@
   line-height: 1.6;
 }
 </style>
+
 
 
 
