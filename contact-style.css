@@ -189,6 +189,7 @@
 .contact-map {
   width: 100%;
   margin-top: 0;
+  overflow: visible;
 }
 
 .contact-map iframe {
@@ -196,6 +197,7 @@
   height: 250px;
   border: none;
   border-radius: 0;
+  overflow: visible;
 }
 #map {
   position: relative;
@@ -322,6 +324,7 @@
   text-decoration: none;
 }
 </style>
+
 
 
 
