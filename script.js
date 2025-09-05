@@ -53,9 +53,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 });
-  function togglePrivacy() {
-    const content = document.getElementById('privacy-content');
-    content.style.display = content.style.display === 'none' ? 'block' : 'none';
-  }
+function toggleDropdown() {
+  const dropdown = document.getElementById("privacyDropdown");
+  dropdown.classList.toggle("show");
+}
 
 
