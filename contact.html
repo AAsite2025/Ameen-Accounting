@@ -169,9 +169,10 @@ Ya Allah, accept this effort and guide its impact.
   <p><strong>8. Updates to This Policy</strong><br>
      We may update this policy from time to time. Changes will be posted on this page with a revised effective date.</p>
 </div>
- <script>
+<script>
   document.addEventListener("DOMContentLoaded", function () {
     const collapsibles = document.querySelectorAll(".collapsible");
+
     collapsibles.forEach(button => {
       button.addEventListener("click", function () {
         this.classList.toggle("active");
@@ -179,16 +180,16 @@ Ya Allah, accept this effort and guide its impact.
         content.style.display = content.style.display === "block" ? "none" : "block";
       });
     });
-  });
-</script>  
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const privacyPanel = document.getElementById("privacy-panel"); // adjust to your actual ID
-    const toggleButton = document.getElementById("privacy-toggle"); // optional, if you use a toggle
 
+    // Auto-close logic
     function closePrivacyPanel() {
-      if (privacyPanel && privacyPanel.classList.contains("open")) {
-        privacyPanel.classList.remove("open");
+      const privacyToggle = document.querySelector(".collapsible.active");
+      if (privacyToggle) {
+        privacyToggle.classList.remove("active");
+        const content = privacyToggle.nextElementSibling;
+        if (content) {
+          content.style.display = "none";
+        }
       }
     }
 
@@ -197,10 +198,10 @@ Ya Allah, accept this effort and guide its impact.
       link.addEventListener("click", closePrivacyPanel);
     });
 
-    // Close on hash change (e.g., #contact, #services)
+    // Close on hash change
     window.addEventListener("hashchange", closePrivacyPanel);
   });
-</script>    
+</script>
         <!-- Map -->
         <div class="contact-map">
           <iframe src="https://www.google.com/maps?q=Pretoria+Road,+Rynfield,+Benoni,+1501&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -443,6 +444,7 @@ Ya Allah, accept this effort and guide its impact.
   </body>
 
 </html>
+
 
 
 
