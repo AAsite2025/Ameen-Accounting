@@ -169,6 +169,7 @@ Ya Allah, accept this effort and guide its impact.
   <p><strong>8. Updates to This Policy</strong><br>
      We may update this policy from time to time. Changes will be posted on this page with a revised effective date.</p>
 </div>
+    <div class="contact-map">    
 <iframe
   src="https://www.google.com/maps/embed?pb=!1m18!..."
   width="100%"
@@ -176,30 +177,6 @@ Ya Allah, accept this effort and guide its impact.
   style="border:0; border-radius: 8px;"
   allowfullscreen=""
   loading="lazy"
-></iframe>    
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const button = document.querySelector(".collapsible");
-    const content = document.querySelector(".collapsible-content");
-
-    button.addEventListener("click", function () {
-      content.classList.toggle("open");
-    });
-
-    // Optional: Auto-close on navigation
-    function closePanel() {
-      content.classList.remove("open");
-    }
-
-    document.querySelectorAll("nav a, footer a").forEach(link => {
-      link.addEventListener("click", closePanel);
-    });
-
-    window.addEventListener("hashchange", closePanel);
-  });
-</script>
- </section>    
-   <!-- Map -->
     <div class="contact-map">
       <iframe
         src="https://www.google.com/maps?q=Pretoria+Road,+Rynfield,+Benoni,+1501&output=embed"
@@ -306,6 +283,27 @@ Ya Allah, accept this effort and guide its impact.
         });
       });
     </script>
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const button = document.querySelector(".collapsible");
+    const content = document.querySelector(".collapsible-content");
+
+    button.addEventListener("click", function () {
+      content.classList.toggle("open");
+    });
+
+    // Optional: Auto-close on navigation
+    function closePanel() {
+      content.classList.remove("open");
+    }
+
+    document.querySelectorAll("nav a, footer a").forEach(link => {
+      link.addEventListener("click", closePanel);
+    });
+
+    window.addEventListener("hashchange", closePanel);
+  });
+</script>
     <nav>
       <footer id="contact">
         <div class="footer-cta">
@@ -442,6 +440,7 @@ Ya Allah, accept this effort and guide its impact.
   </body>
 
 </html>
+
 
 
 
