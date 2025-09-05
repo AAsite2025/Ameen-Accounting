@@ -209,8 +209,51 @@
   .contact-info-block {
     flex: 1 1 100%;
   }
-}    
-      </style>
+}   
+/* Dropdown styling */
+.dropdown-content {
+  display: none;
+  flex-direction: column;
+  padding-left: 1.2rem;
+  font-size: 0.85rem;
+  color: #fffdd0;
+}
+
+.dropdown-content p {
+  margin: 0.2rem 0;
+}
+
+/* Dropdown content hidden by default */
+.dropdown-content {
+  display: none;
+  flex-direction: column;
+  padding-left: 1.2rem;
+  font-size: 0.85rem;
+  color: #fffdd0;
+  margin-top: 0.5rem;
+}
+
+/* Desktop: Show on hover */
+@media (min-width: 768px) {
+  .dropdown:hover .dropdown-content {
+    display: flex;
+  }
+}
+
+/* Mobile: Show when .show class is added */
+@media (max-width: 767px) {
+  .dropdown-content.show {
+    display: flex;
+  }
+}
+@media (max-width: 600px) {
+  .footer-block h4,
+  .footer-block a {
+    text-align: center;
+  }
+}
+</style>
+
 
 
 
