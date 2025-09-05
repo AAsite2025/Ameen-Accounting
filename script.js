@@ -53,10 +53,22 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 });
-function togglePrivacy() {
-  const dropdown = document.getElementById("privacyDropdown");
-  dropdown.classList.toggle("show");
-}
+document.addEventListener("DOMContentLoaded", function () {
+  const collapsibles = document.querySelectorAll(".collapsible");
+
+  collapsibles.forEach(btn => {
+    btn.addEventListener("click", function () {
+      this.classList.toggle("active");
+      const content = this.nextElementSibling;
+      if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  });
+});
+
 
 
 
