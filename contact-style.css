@@ -189,10 +189,10 @@
     .contact-map {
       width: 100%;
       margin-top: 1rem;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.75rem;
     }
 footer {
-  padding-top: 0.25rem; /* This reinforces the gap from below */
+  padding-top: 0.5rem; /* This reinforces the gap from below */
 }
     .contact-map iframe {
       width: 100%;
@@ -344,6 +344,7 @@ footer {
   text-decoration: none;
 }
 </style>
+
 
 
 
