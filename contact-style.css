@@ -189,7 +189,7 @@
     .contact-map {
       width: 100%;
       margin-top: 1rem;
-      margin-bottom: 0.25rem;
+      margin-bottom: 0.5rem;
     }
 footer {
   padding-top: 0.25rem; /* This reinforces the gap from below */
@@ -344,6 +344,7 @@ footer {
   text-decoration: none;
 }
 </style>
+
 
 
 
