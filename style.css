@@ -1196,4 +1196,47 @@ main {
 footer {
   margin-top: auto;
 }
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .page-wrapper,
+  .section,
+  .hero,
+  footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    max-width: 100vw;
+  }
+
+  img,
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .company-name {
+    font-size: 2.5rem;
+    padding: 2rem 0;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .cta-btn {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
 </style>
