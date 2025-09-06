@@ -1239,4 +1239,20 @@ footer {
     font-size: 1rem;
   }
 }
+@media (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  html, body {
+    overflow-x: hidden;
+    font-size: 95%;
+  }
+
+  img, video {
+    height: auto;
+    max-width: 100%;
+  }
+}
 </style>
