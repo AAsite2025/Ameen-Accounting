@@ -191,7 +191,9 @@
       margin-top: 1rem;
       margin-bottom: 3rem;
     }
-
+footer {
+  padding-top: 2rem; /* This reinforces the gap from below */
+}
     .contact-map iframe {
       width: 100%;
       height: 350px;
@@ -209,8 +211,9 @@
     display: flex;
     justify-content: space-between;
     gap: 6rem;
-    align-items: stretch; /* Make both blocks equal height */
+    align-items: stretch;
   }
+}
 @media (max-width: 768px) {
   .contact-container {
     gap: 4rem;
@@ -341,6 +344,7 @@
   text-decoration: none;
 }
 </style>
+
 
 
 
