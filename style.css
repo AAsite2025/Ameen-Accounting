@@ -230,25 +230,6 @@ a:focus {
     cursor: pointer;
   }
 }
-/* Default: show desktop nav, hide mobile nav */
-.desktop-nav {
-  display: block;
-}
-
-.mobile-nav {
-  display: none;
-}
-
-/* On screens smaller than 768px: hide desktop nav, show mobile nav */
-@media (max-width: 768px) {
-  .desktop-nav {
-    display: none;
-  }
-
-  .mobile-nav {
-    display: block;
-  }
-}
 .company-name {
   font-size: 4rem;
   font-weight: 900;
