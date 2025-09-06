@@ -122,7 +122,7 @@ Ya Allah, accept this effort and guide its impact.
           </div>
         </section>
 <!-- Privacy Policy Section -->
-<button class="collapsible" style="border: 1px solid #ccc;">🛡️ Privacy Policy</button>
+<button id="privacy-button" class="collapsible" style="border: 1px solid #ccc;">🛡️ Privacy Policy</button>
 <div class="collapsible-content">
   <div class="scrollable-policy">
     <section id="privacy" class="privacy-policy">
@@ -335,23 +335,6 @@ Ya Allah, accept this effort and guide its impact.
 
     window.addEventListener("hashchange", closePanel);
   });
-</script>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    if (window.location.hash === "#privacy") {
-      const collapsible = document.querySelector(".collapsible");
-      const content = document.querySelector(".collapsible-content");
-
-      if (collapsible && content) {
-        collapsible.classList.add("active");
-        content.classList.add("open");
-        content.style.maxHeight = content.scrollHeight + "px";
-
-        // Scroll to the section
-        document.getElementById("privacy").scrollIntoView({ behavior: "smooth" });
-      }
-    }
-  });
 </script>    
     <nav>
       <footer id="contact">
@@ -489,6 +472,7 @@ Ya Allah, accept this effort and guide its impact.
   </body>
 
 </html>
+
 
 
 
