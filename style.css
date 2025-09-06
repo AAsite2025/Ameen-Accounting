@@ -230,6 +230,21 @@ a:focus {
     cursor: pointer;
   }
 }
+/* Default: hide hamburger nav on large screens */
+.hamburger-nav {
+  display: none;
+}
+
+/* Show hamburger nav on screens smaller than 768px */
+@media (max-width: 768px) {
+  .hamburger-nav {
+    display: block;
+  }
+
+  .full-nav {
+    display: none;
+  }
+}
 .company-name {
   font-size: 4rem;
   font-weight: 900;
