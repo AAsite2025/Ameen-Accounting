@@ -186,20 +186,34 @@
 }
 
 /* Map styling */
-.contact-map {
-  width: 100%;
-  margin-top: 0;
-  margin-bottom: 2rem;
-  padding-bottom: 0;
-  overflow: visible;
-}
+    .contact-map {
+      width: 100%;
+      margin-top: 3rem;
+    }
 
-.contact-map iframe {
-  width: 100%;
-  height: 360px;
-  border: none;
-  border-radius: 0;
-  display: block;
+    .contact-map iframe {
+      width: 100%;
+      height: 350px;
+      border: none;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 768px) {
+      .contact-container {
+        flex-direction: column;
+      }
+    }
+@media (min-width: 768px) {
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+    align-items: stretch; /* Make both blocks equal height */
+  }
+@media (max-width: 768px) {
+  .contact-container {
+    gap: 4rem;
+  }
 }
 #map {
   position: relative;
@@ -329,6 +343,7 @@ footer {
   text-decoration: none;
 }
 </style>
+
 
 
 
