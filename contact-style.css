@@ -192,7 +192,7 @@
       margin-bottom: 3rem;
     }
 footer {
-  padding-top: 2rem; /* This reinforces the gap from below */
+  padding-top: 0.5rem; /* This reinforces the gap from below */
 }
     .contact-map iframe {
       width: 100%;
@@ -344,6 +344,7 @@ footer {
   text-decoration: none;
 }
 </style>
+
 
 
 
