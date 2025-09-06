@@ -189,7 +189,9 @@
 .contact-map {
   width: 100%;
   margin-top: 0;
- overflow: visible;
+  margin-bottom: -40px;
+  padding-bottom: 0;
+  overflow: visible;
 }
 
 .contact-map iframe {
@@ -197,7 +199,7 @@
   height: 360px;
   border: none;
   border-radius: 0;
-  overflow: visible;
+  display: block;
 }
 #map {
   position: relative;
@@ -218,6 +220,9 @@
     flex: 1 1 100%;
   }
 }   
+footer {
+  padding-top: 60px; /* Creates breathing room */
+}
 /* Dropdown styling */
 .dropdown-content {
   display: none;
@@ -324,6 +329,7 @@
   text-decoration: none;
 }
 </style>
+
 
 
 
