@@ -125,54 +125,7 @@ header {
     /* fade-in together on small screens */
   }
 }
-
-
 /* Navigation */
-/* Mobile hamburger button */
-.hamburger {
-  font-size: 2rem;
-  background: none;
-  border: none;
-  color: #07484a;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-}
-
-/* Mobile nav container */
-.nav-links {
-  display: none;
-  flex-direction: column;
-  background-color: #e6f3f3;
-  padding: 1rem;
-  gap: 1rem;
-  animation: fadeSlideIn 0.5s ease forwards;
-}
-
-.nav-links a {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #07484a;
-  text-decoration: none;
-}
-
-.nav-links a:hover,
-.nav-links a:focus {
-  text-decoration: underline;
-  outline: 3px solid #55a4a4;
-  outline-offset: 2px;
-}
-
-/* Show mobile nav when active */
-.nav-links.active {
-  display: flex;
-}
-
-/* Hide hamburger nav on desktop */
-@media (min-width: 769px) {
-  .hamburger-nav {
-    display: none;
-  }
-}
 nav {
   display: flex;
   justify-content: center;
@@ -241,52 +194,48 @@ nav a:nth-child(6) {
     transform: translateX(0);
   }
 }
-
-/* Accessibility: Focus styles */
-nav a:focus,
-button:focus,
-a:focus {
-  outline: 3px solid #0bb;
-  outline-offset: 2px;
-  box-shadow: 0 0 5px 2px #0bb;
-}
-/* Hide nav on desktop */
-@media (min-width: 769px) {
-  .mobile-nav {
-    display: none;
-  }
+/* Mobile hamburger button */
+.hamburger {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #07484a;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
 }
 
-/* Show nav on mobile */
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-
-  .hamburger {
-    font-size: 24px;
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
-}
-/* Default: hide hamburger nav on large screens */
-.hamburger-nav {
+/* Mobile nav container */
+.nav-links {
   display: none;
+  flex-direction: column;
+  background-color: #e6f3f3;
+  padding: 1rem;
+  gap: 1rem;
+  animation: fadeSlideIn 0.5s ease forwards;
 }
 
-/* Show hamburger nav on screens smaller than 768px */
-@media (max-width: 768px) {
-  .hamburger-nav {
-    display: block;
-  }
+.nav-links a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #07484a;
+  text-decoration: none;
+}
 
-  .full-nav {
+.nav-links a:hover,
+.nav-links a:focus {
+  text-decoration: underline;
+  outline: 3px solid #55a4a4;
+  outline-offset: 2px;
+}
+
+/* Show mobile nav when active */
+.nav-links.active {
+  display: flex;
+}
+
+/* Hide hamburger nav on desktop */
+@media (min-width: 769px) {
+  .hamburger-nav {
     display: none;
   }
 }
