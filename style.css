@@ -194,51 +194,6 @@ nav a:nth-child(6) {
     transform: translateX(0);
   }
 }
-/* Mobile hamburger button */
-.hamburger {
-  font-size: 2rem;
-  background: none;
-  border: none;
-  color: #07484a;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-}
-
-/* Mobile nav container */
-.nav-links {
-  display: none;
-  flex-direction: column;
-  background-color: #e6f3f3;
-  padding: 1rem;
-  gap: 1rem;
-  animation: fadeSlideIn 0.5s ease forwards;
-}
-
-.nav-links a {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #07484a;
-  text-decoration: none;
-}
-
-.nav-links a:hover,
-.nav-links a:focus {
-  text-decoration: underline;
-  outline: 3px solid #55a4a4;
-  outline-offset: 2px;
-}
-
-/* Show mobile nav when active */
-.nav-links.active {
-  display: flex;
-}
-
-/* Hide hamburger nav on desktop */
-@media (min-width: 769px) {
-  .hamburger-nav {
-    display: none;
-  }
-}
 .company-name {
   font-size: 4rem;
   font-weight: 900;
