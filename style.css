@@ -196,55 +196,6 @@ nav a:nth-child(6) {
     transform: translateX(0);
   }
 }
-
-/* Accessibility: Focus styles */
-nav a:focus,
-button:focus,
-a:focus {
-  outline: 3px solid #0bb;
-  outline-offset: 2px;
-  box-shadow: 0 0 5px 2px #0bb;
-}
-/* Hide nav on desktop */
-@media (min-width: 769px) {
-  .mobile-nav {
-    display: none;
-  }
-}
-
-/* Show nav on mobile */
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-
-  .hamburger {
-    font-size: 24px;
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
-}
-/* Default: hide hamburger nav on large screens */
-.hamburger-nav {
-  display: none;
-}
-
-/* Show hamburger nav on screens smaller than 768px */
-@media (max-width: 768px) {
-  .hamburger-nav {
-    display: block;
-  }
-
-  .full-nav {
-    display: none;
-  }
-}
 .company-name {
   font-size: 4rem;
   font-weight: 900;
