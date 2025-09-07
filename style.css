@@ -196,6 +196,32 @@ nav a:nth-child(6) {
     transform: translateX(0);
   }
 }
+@media (max-width: 600px) {
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem 0.25rem;
+  }
+
+  nav a {
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+    white-space: nowrap;
+  }
+
+  nav a.active {
+    font-weight: 600;
+    text-decoration: underline;
+  }
+}
+@media (max-width: 400px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .company-name {
   font-size: 4rem;
   font-weight: 900;
