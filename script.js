@@ -65,6 +65,12 @@ function checkOrientation() {
 
 window.addEventListener('resize', checkOrientation);
 window.addEventListener('load', checkOrientation);
+<script>
+  function toggleMobileNav() {
+    const nav = document.getElementById('mobileNav');
+    nav.classList.toggle('active');
+  }
+</script>
 
 
 
