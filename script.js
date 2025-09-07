@@ -53,24 +53,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 });
-function checkOrientation() {
-  if (window.innerHeight > window.innerWidth) {
-    document.querySelector('.rotate-warning').style.display = 'flex';
-    document.querySelector('.page-wrapper').style.display = 'none';
-  } else {
-    document.querySelector('.rotate-warning').style.display = 'none';
-    document.querySelector('.page-wrapper').style.display = 'flex';
-  }
-}
 
-window.addEventListener('resize', checkOrientation);
-window.addEventListener('load', checkOrientation);
-<script>
-  function toggleMobileNav() {
-    const nav = document.getElementById('mobileNav');
-    nav.classList.toggle('active');
-  }
-</script>
+
 
 
 
