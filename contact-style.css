@@ -144,6 +144,12 @@
     #00cccc 50%,
     #009999 100%
   );
+ .contact-intro {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  color: #333;
+  max-width: 600px;
+}
   background-size: 400px 100%;
   animation: shimmerForm 1.5s linear infinite;
   background-color: #009999;
@@ -344,6 +350,7 @@ footer {
   text-decoration: none;
 }
 </style>
+
 
 
 
