@@ -99,7 +99,7 @@ font-weight: 900;
 font-size: 1.6rem;
 color: white;
 text-transform: uppercase;
-text-shadow: 1px 1px 3px gold;
+text-shadow: 0.5px 0.5px 1.5px gold;
 margin-bottom: 0.3rem;  /* spacing below company name */
 user-select: none;
 }
