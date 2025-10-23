@@ -101,7 +101,7 @@
         font-size: 1.6rem;
         color: white;
         text-transform: uppercase;
-        text-shadow: 2px 2px 6px gold;
+        text-shadow: 1px 1px 3px gold;
         margin-bottom: 0.3rem;
         /* spacing below company name */
         user-select: none;
@@ -488,6 +488,7 @@ header.hero {
     </style>
 
  
+
 
 
 
